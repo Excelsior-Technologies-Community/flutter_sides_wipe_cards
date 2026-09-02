@@ -1,5 +1,3 @@
-import 'dart:math' as math;
-
 import 'package:flutter/material.dart';
 
 import 'side_swipe_controller.dart';
@@ -107,6 +105,7 @@ class _SideSwipeCardsState extends State<SideSwipeCards>
 
   bool _isAnimating = false;
 
+  // ignore: unused_field
   SideSwipeDirection? _animationDirection;
 
   @override
@@ -402,10 +401,6 @@ class _SideSwipeCardsState extends State<SideSwipeCards>
       ),
     );
   }
-
-  // ---------------------------------------------------------------------------
-  // CURRENT CARD
-  // ---------------------------------------------------------------------------
 
   Widget _buildCurrentCard(BuildContext context) {
     final width = MediaQuery.sizeOf(context).width;

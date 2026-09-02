@@ -1,0 +1,4 @@
+enum SideSwipeDirection {
+  left,
+  right,
+}
